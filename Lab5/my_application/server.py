@@ -17,5 +17,9 @@ def user():
 def post():
     return "Post 80!"
     
+@app.route("/mwn")
+def nurse():
+    return "Mergos Wet Nurse is my Spirit Animal.\n"
+    
 
 if __name__ == "__main__": app.run(host="0.0.0.0", port=8080,debug=True)

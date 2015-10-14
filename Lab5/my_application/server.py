@@ -4,16 +4,16 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "Index File!"
-    
-    @app.route("/hello")
+
+@app.route("/hello")
 def hello():
     return "Hello World!"
     
-    @app.route("/user/paul")
+@app.route("/user/paul")
 def user():
     return "User Paul!"
     
-        @app.route("/post/80")
+@app.route("/post/80")
 def post():
     return "Post 80!"
     

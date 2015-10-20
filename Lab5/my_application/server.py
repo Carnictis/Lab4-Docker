@@ -25,5 +25,9 @@ def nurse():
 def rex():
     return "Dinosaurs are Great.\n"
     
+@app.route("/jess")
+def rex():
+    return "Today I made an Alias for Jess locally! Hurrah!.\n"
+    
 
 if __name__ == "__main__": app.run(host="0.0.0.0", port=8080,debug=True)
